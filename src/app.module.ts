@@ -9,9 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose';
       'mongodb+srv://admin:sZDs7uU7vA4RR5q2@cluster0.zjmbm.mongodb.net/smartranking?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
-        useCreateIndex: true,
         useUnifiedTopology: true,
-        useFindAndModify: false,
       },
     ),
   ],
